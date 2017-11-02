@@ -30,18 +30,18 @@
  }
 
  exports.getuserdetails = function(req, res){
-     if(req.query.mobilenumber === '08096499286'){
-         res.send({"Title":"Mr.","FirstName":"Kolawole","MiddleName":"Idris",
-"LastName":"Abobade","MotherMaidenName":"Omenai","DateOfBirth":"10-3-1987","BirthPlace":"Ilorin",
+     if(req.query.mobilenumber === '234 809 6499286'){
+         res.send({"Title":"MR.","FirstName":"Kolawole","MiddleName":"Idris",
+"LastName":"Abobade","MotherMaidenName":"Omenai","DateOfBirth":"20-07-1999","BirthPlace":"Ilorin",
 "Nationality":"Nigerian","OriginState":"Oyo","HomeAddress":"Road 22, House 7 Ikota Villa Estate",
-"HomeTown":"Lagos","Phone":"08096499286","EMail":"kolawole.abobade@gmail.com",
+"HomeTown":"LAGOS","Phone":"08096499286","EMail":"kolawole.abobade@gmail.com",
 "Alert":"True","SecurityQues1":"samplestring29","SOL":"725","OriginCity":"Lagos"});
      }
  }
 
  exports.branchlist = function(req, res){
      if(req.query.statename === 'LAGOS'){
-         res.send([{"BranchName": "MISAU BRANCH","SolId": " 725"},{"BranchName": "TEJUOSHO MARKET QSP","SolId": " 621"}]);
+         res.send([{"BranchName": "MISAU BRANCH","SolID": "725"},{"BranchName": "TEJUOSHO MARKET QSP","SolID": "621"}]);
      }
  }
 
@@ -62,7 +62,7 @@ exports.bvnvalidation = function(req, res){
             "NIN": "215-625-8750",
             "NameOnCard": "Michael Henderson",
             "Nationality": "Nigeria",
-            "PhoneNumber1": "08013952719",
+            "PhoneNumber1": "2348013952719",
             "PhoneNumber2": "07014051129",
             "ResidentialAddress": "2922 Rocky Road",
             "StateOfOrigin": "benue state",
